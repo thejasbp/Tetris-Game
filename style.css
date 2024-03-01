@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@keyframes colorChange {
+    0% {
+      background-color: #ff000065; /* Start color */
+    }
+    25% {
+      background-color: #22ff008b; /* First transition color */
+    }
+    50% {
+      background-color: #0000ff85; /* Middle color */
+    }
+    75% {
+      background-color: #00ffff90; /* Second transition color */
+    }
+    100% {
+      background-color: #ff000065; /* End color */
+    }
+  }
+
+
+body{
+    background-color: rgb(73, 199, 64);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    animation: colorChange 18s infinite;
+
+}
+
+
+#tetris{
+    height: 450px;
+    /* border: 2px solid black; */
+    background-color: aliceblue;
+    box-shadow: 0 0px 20px 0 rgb(46, 149, 184);
+    border: 1px solid rgb(103, 189, 215);
+    border-radius: 7px;
+    /* animation: colorofscore 10s infinite; */
+
+    /* animation: colorChange 10s infinite; */
+
+}
